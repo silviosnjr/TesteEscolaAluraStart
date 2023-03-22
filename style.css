@@ -1,0 +1,85 @@
+
+*{/*seletor universal*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.cabecalho{
+    background-color: #242121;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 20%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px; 
+    font-size: 24px;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
+}
+
+.imagem-destaque{
+    width: 25%;
+}
+
+.empresa{
+    background-image: linear-gradient( to right, red, green, yellow, blue );
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.empresa-div-conteudo{
+    width: 35%;
+}
+
+.empresa-titulo{
+    padding: 24px 0;
+}
+
+.servico-imagem{
+    width: 120px;
+}
+
+.servico-icone{
+    width: 24px;
+    padding: 4px 12px;
+}
+
+.servico-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.servico-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.servico-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: #242121;
+    text-align: center;
+}
+
+.rodape-imagem{
+    width: 60px;
+    padding: 12px 0;    
+}
